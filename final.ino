@@ -127,28 +127,6 @@ void loop() // run over and over again
   }
 }
 
-uint8_t deleteFingerprint(uint8_t id)
-{
-  Serial.print("deletion invoked");
-  uint8_t p = -1;
-  
-  p = finger.deleteModel(id);
-
-  if (p == FINGERPRINT_OK)
-  {
-    Colour(0,240,0);
-    delay(500);
-    Colour(240,240,240);
-  }
-  else
-  {
-    Colour(240,0,0);
-    delay(500);
-    Colour(0,0,0);
-    return p;
-  }
-}
-
 uint8_t getFingerprintEnroll(uint8_t inputId)
 {
   Serial.println("enrollment called");
