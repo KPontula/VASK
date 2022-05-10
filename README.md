@@ -6,4 +6,4 @@ This repository holds the final presentation, report and Arduino UNO code used.
 
 [YouTube video of Project](https://youtu.be/kYDMhpqMymo)
 
-P.S. I had decided to name it VASK (after the first letters of our names)
+P.S. I had decided to name it VASK after the first letters of our names.
